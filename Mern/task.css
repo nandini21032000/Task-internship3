@@ -1,0 +1,45 @@
+*
+{
+padding:0px;
+margin: 0px;
+}
+.flex
+{
+   background-color: green;
+   text-align: center; 
+   padding-top: 1px;
+   padding-bottom: 1px;
+}
+.d
+{
+ 
+ padding-top: 52px;
+ display: flex;
+ justify-content: center;
+}
+.b
+{
+   padding-top: 53px;
+   display: flex;
+   justify-content: end;
+   margin-right: 10px;
+}
+.x{
+width: 50%;
+height: 98%;
+border: solid 5px;
+border-color: orange;
+margin-top: 2px;
+box-shadow:indigo 5px 10px;
+transition: all 2s;
+}
+body
+{
+   display: flex;
+   justify-content: center;
+}
+.x:hover
+{
+   
+   transform: translate(50px);
+}
